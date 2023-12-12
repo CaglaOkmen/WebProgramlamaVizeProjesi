@@ -6,11 +6,14 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
-      { path: 'page1', component: () => import('components/ThePage1.vue') },
-      { path: 'page2', component: () => import('components/ThePage2.vue') },
-      { path: 'page3', component: () => import('components/ThePage3.vue') },
-      { path: 'page4', component: () => import('components/ThePage4.vue') },
-      { path: 'page5', component: () => import('components/ThePage5.vue') }
+      { path: 'page1c', component: () => import('components/ThePage1c.vue') },
+      { path: 'page2c', component: () => import('components/ThePage2c.vue') },
+      { path: 'page3c', component: () => import('components/ThePage3c.vue') },
+      { path: 'page4c', component: () => import('components/ThePage4c.vue') },
+      { path: 'page5c', component: () => import('components/ThePage5c.vue') },
+      { path: 'page1ö', component: () => import('components/ThePage3ö.vue') },
+      { path: 'page2ö', component: () => import('components/ThePage4ö.vue') },
+      { path: 'page3ö', component: () => import('components/ThePage5ö.vue') }
     ],
   },
 
