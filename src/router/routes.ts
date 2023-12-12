@@ -11,9 +11,10 @@ const routes: RouteRecordRaw[] = [
       { path: 'page3', component: () => import('components/ThePage3.vue') },
       { path: 'page4', component: () => import('components/ThePage4.vue') },
       { path: 'page5', component: () => import('components/ThePage5.vue') },
-      { path: 'page1ö', component: () => import('components/ThePage1-ö.vue') },
-      { path: 'page2ö', component: () => import('components/ThePage2-ö.vue') },
-      { path: 'page5ö', component: () => import('components/ThePage5-ö.vue') }
+      { path: 'ThePage1-ö', component: () => import('components/ThePage1-ö.vue') },
+      { path: 'ThePage2-ö', component: () => import('components/ThePage2-ö.vue') },
+      { path: 'ThePage5-ö', component: () => import('components/ThePage5-ö.vue') },
+      { path: 'ThePage6-ö', component: () => import('components/ThePage6-ö.vue') }
     ],
   },
 
