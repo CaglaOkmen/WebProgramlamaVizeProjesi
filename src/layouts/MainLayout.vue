@@ -48,35 +48,39 @@ const componentLinks: ComponentLinkProps[] = [
   },
   {
     title: 'Katagoriler',
-    link: '/page1c',
+    link: '/page1',
   },
   {
     title: 'Ürün İncele Slider',
-    link: '/page2c',
+    link: '/page2',
   },
   {
     title: 'Sizin için seçtiklerimiz',
-    link: 'page3c',
+    link: 'page3',
   },
   {
     title: 'Cizgi Roman Sayfası Urunleri',
-    link: '/page4c',
+    link: '/page4',
   },
   {
     title: 'Griş yap',
-    link: '/page5c',
+    link: '/page5',
   },
   {
-    title: 'Sayfa 1',
-    link: 'page1-ö',
+    title: 'header',
+    link: 'ThePage1-ö',
   },
   {
-    title: 'Sayfa 2',
-    link: '/page2-ö',
+    title: 'toolbar',
+    link: '/ThePage2-ö',
   },
   {
-    title: 'Sayfa 5',
-    link: '/page5-ö',
+    title: 'Sepet',
+    link: '/ThePage5-ö',
+  },
+  {
+    title: 'caruosel',
+    link: '/ThePage6-ö',
   }
 ];
 
