@@ -77,14 +77,6 @@ const componentLinks: ComponentLinkProps[] = [
   {
     title: 'Sayfa 5',
     link: '/page5-ö',
-  },
-  {
-    title: '',
-    link: '/page4-ö',
-  },
-  {
-    title: '',
-    link: '/page5-ö',
   }
 ];
 
